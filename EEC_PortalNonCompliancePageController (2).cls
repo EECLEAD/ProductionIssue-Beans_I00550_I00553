@@ -1,6 +1,8 @@
 public without sharing class EEC_PortalNonCompliancePageController {
  
    public List<Inspection_Item__c> visititems {get;set; }
+
+ 
    public List<Inspection__c> relatedVisits {get; set;}
    public List<Inspection_Item__c> investigationvVisitItems {get;set; } 
    public List<Non_Compliant__c>  noncompitems {get;set; } 
